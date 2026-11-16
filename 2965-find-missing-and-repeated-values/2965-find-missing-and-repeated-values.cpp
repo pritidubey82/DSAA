@@ -3,8 +3,8 @@ public:
     vector<int> findMissingAndRepeatedValues(vector<vector<int>>& grid) {
         int n= grid.size();
         int total= n*n;
-        int repeat=0;
-        int missing=0;
+        int repeat=-1;
+        int missing=-1;
 
 
         vector<int> result(total+1,0);
